@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: auto;
+  }
+
+  /* header {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+  } */
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  #watch-preview {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  #watch-preview img {
+    max-width: 300px;
+    transition: transform 0.3s;
+  }
+
+  #watch-image {
+    max-width: 300px;
+    transition: opacity 0.3s;
+  }
+  
+  .customization-section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .option-grid {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .option {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .size-options label {
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  #price-display {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  

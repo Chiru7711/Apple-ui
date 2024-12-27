@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Watch Studio Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <!-- Logo -->
+    <img src="images/asset 0.jpeg" alt="Apple Logo" id="logo" style="width: 100px; height: auto;">
+    <h1>Apple Watch Studio</h1>
+  </header>
+  <main>
+    <!-- Watch Preview -->
+    <section id="watch-preview">
+      <img id="watch-image" src="images/asset 1.png" alt="Apple Watch Preview">
+    </section>
+
+    <!-- Customization Options -->
+    <section id="customization">
+      <!-- Case Selection -->
+      <div class="customization-section">
+        <h2>Choose Your Case</h2>
+        <div class="option-grid" id="case-options">
+          <button class="option" data-case="aluminum" data-image="images/asset 3.jpeg">Aluminum</button>
+          <button class="option" data-case="titanium" data-image="images/asset 10.jpeg">Titanium</button>
+        </div>
+      </div>
+
+      <!-- Size Selection -->
+      <div class="customization-section">
+        <h2>Choose Your Size</h2>
+        <div class="size-options">
+          <label><input type="radio" name="size" value="42mm" data-price="399"  data-image="images/42mm.png" checked> 42mm</label>
+          <label><input type="radio" name="size" value="46mm" data-price="499" data-image="images/46mm.png"> 46mm</label>
+        </div>
+      </div>
+
+      <!-- Band Selection -->
+      <div class="customization-section">
+        <h2>Choose Your Band</h2>
+        <div class="option-grid" id="band-options">
+          <button class="option" data-band="solo-loop" data-image="images/asset 2.jpeg">Solo Loop</button>
+          <button class="option" data-band="braided-solo-loop" data-image="images/asset 11.jpeg">Braided Solo Loop</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Price Display -->
+    <section id="price-display">
+      <h2>Total Price: $<span id="total-price">399</span></h2>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
